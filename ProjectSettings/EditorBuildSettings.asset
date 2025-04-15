@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Storage closet.unity
     guid: 75ccae721e1a24f31982985ee9a5da58
+  - enabled: 1
+    path: Assets/Scenes/Amandas Office.unity
+    guid: 3ad10c0b81be04a388383f5101ae94e6
   m_configObjects: {}
