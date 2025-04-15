@@ -998,12 +998,12 @@ PrefabInstance:
     - target: {fileID: 5748659467163455943, guid: a27ff7a4cfb0442e49e7ffdf1fbe85d7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.89
+      value: -4.82
       objectReference: {fileID: 0}
     - target: {fileID: 5748659467163455943, guid: a27ff7a4cfb0442e49e7ffdf1fbe85d7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.61
+      value: -1.62
       objectReference: {fileID: 0}
     - target: {fileID: 5748659467163455943, guid: a27ff7a4cfb0442e49e7ffdf1fbe85d7,
         type: 3}
@@ -1523,7 +1523,7 @@ PrefabInstance:
     - target: {fileID: 8951247066722105716, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.18305129
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 8951247066722105716, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
@@ -1597,7 +1597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: 0
+  levelName: Record Store
 --- !u!114 &1660704126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1616,7 +1616,7 @@ MonoBehaviour:
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 0
+  happenOnlyOnce: 1
   filterByTag: 0
   filterTag: Player
   keyToPress: 13
