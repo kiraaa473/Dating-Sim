@@ -1136,11 +1136,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 211801531}
-  limitBounds: 0
-  left: -5
-  right: 5
-  bottom: -5
-  top: 5
+  limitBounds: 1
+  left: -76.31442
+  right: 83.48463
+  bottom: -27.091969
+  top: 55.385185
 --- !u!114 &1234491913
 MonoBehaviour:
   m_ObjectHideFlags: 0

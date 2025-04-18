@@ -15,6 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Storage closet.unity
     guid: 75ccae721e1a24f31982985ee9a5da58
   - enabled: 1
-    path: Assets/Scenes/Amandas Office.unity
+    path: Assets/Scenes/Lvl 6 Amandas Office.unity
     guid: 3ad10c0b81be04a388383f5101ae94e6
+  - enabled: 1
+    path: Assets/Scenes/Lvl 1 Nicks Beach.unity
+    guid: 5a1622361986d4fdfb49da9329de9083
+  - enabled: 1
+    path: Assets/Scenes/Lvl 3 Hunter.unity
+    guid: 9d232d78c77444329811b65914e08024
+  - enabled: 1
+    path: Assets/Scenes/Lvl 4 Margaret.unity
+    guid: aeab92db5e7d343d0846f87f4cf0750a
+  - enabled: 1
+    path: Assets/Scenes/Lvl 5 Jayden.unity
+    guid: bf1810af421374f14883d8b4c95d059c
   m_configObjects: {}
