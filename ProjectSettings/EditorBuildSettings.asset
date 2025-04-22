@@ -6,32 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Record Store.unity
-    guid: 74ac70dca973d4e62a1bfb8719de805c
+    path: Assets/Scenes/Lvl 1 Nicks Beach.unity
+    guid: 5a1622361986d4fdfb49da9329de9083
   - enabled: 1
     path: Assets/Scenes/Lvl 2 Brooke.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Record Store.unity
+    guid: 74ac70dca973d4e62a1bfb8719de805c
+  - enabled: 1
     path: Assets/Scenes/Storage closet.unity
     guid: 75ccae721e1a24f31982985ee9a5da58
-  - enabled: 1
-    path: Assets/Scenes/office.unity
-    guid: 3ad10c0b81be04a388383f5101ae94e6
-  - enabled: 1
-    path: Assets/Scenes/Lvl 1 Nicks Beach.unity
-    guid: 5a1622361986d4fdfb49da9329de9083
   - enabled: 1
     path: Assets/Scenes/Lvl 3 Hunter.unity
     guid: 9d232d78c77444329811b65914e08024
   - enabled: 1
-    path: Assets/Scenes/Lvl 4 Margaret.unity
-    guid: aeab92db5e7d343d0846f87f4cf0750a
-  - enabled: 1
-    path: Assets/Scenes/Lvl 6 Jayden.unity
-    guid: bf1810af421374f14883d8b4c95d059c
-  - enabled: 1
     path: Assets/Scenes/Library.unity
     guid: 400fe3960e88f4d2f9594473eee260b7
+  - enabled: 1
+    path: Assets/Scenes/Lvl 4 Margaret.unity
+    guid: aeab92db5e7d343d0846f87f4cf0750a
   - enabled: 1
     path: Assets/Scenes/Flower Shop.unity
     guid: 3ca0a1cd01ac04bb7a094ca6128c9b88
@@ -39,6 +33,12 @@ EditorBuildSettings:
     path: Assets/Scenes/lvl 5 Amanda.unity
     guid: 6d81f1e5de34c408eabe9060d1e3650d
   - enabled: 1
+    path: Assets/Scenes/office.unity
+    guid: 3ad10c0b81be04a388383f5101ae94e6
+  - enabled: 1
     path: Assets/Scenes/office secret heart.unity
     guid: db7ad255ad87342a49ae870eff232df9
+  - enabled: 1
+    path: Assets/Scenes/Lvl 6 Jayden.unity
+    guid: bf1810af421374f14883d8b4c95d059c
   m_configObjects: {}
