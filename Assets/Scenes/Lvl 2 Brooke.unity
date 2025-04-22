@@ -130,6 +130,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 654069512}
     m_Modifications:
+    - target: {fileID: -8987861200682234350, guid: 9d40452beb8024b02ab65e6221807db3,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1786825339469112659, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       propertyPath: m_Name
@@ -1099,6 +1104,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3112904404157228906, guid: cefea141f65e7416daf8092a8b8e61fb,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4162015549753064909, guid: cefea141f65e7416daf8092a8b8e61fb,
         type: 3}
       propertyPath: m_Name
@@ -1159,11 +1169,63 @@ PrefabInstance:
       propertyPath: levelName
       value: Lvl 3 Hunter
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 428115383772760277, guid: cefea141f65e7416daf8092a8b8e61fb, type: 3}
+    - {fileID: 7905262736535890296, guid: cefea141f65e7416daf8092a8b8e61fb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4162015549753064909, guid: cefea141f65e7416daf8092a8b8e61fb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 443709335}
+    - targetCorrespondingSourceObject: {fileID: 4162015549753064909, guid: cefea141f65e7416daf8092a8b8e61fb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 443709334}
   m_SourcePrefab: {fileID: 100100000, guid: cefea141f65e7416daf8092a8b8e61fb, type: 3}
+--- !u!1 &443709333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4162015549753064909, guid: cefea141f65e7416daf8092a8b8e61fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 443709332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &443709334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443709333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: Lvl 3 Hunter
+--- !u!114 &443709335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443709333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 443709334}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Player
+  frequency: 1
+  eventType: 0
 --- !u!1001 &494368974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1377,7 +1439,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 731736737}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ddb73e2f0dc401ebfb23c7b6e72fa5, type: 3}
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
@@ -1387,11 +1449,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   happenOnlyOnce: 0
-  filterByTag: 0
+  filterByTag: 1
   filterTag: Player
-  keyToPress: 13
+  frequency: 1
   eventType: 0
-  frequency: 0.5
 --- !u!1001 &749135219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4051,6 +4112,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3112904404157228906, guid: cefea141f65e7416daf8092a8b8e61fb,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4162015549753064909, guid: cefea141f65e7416daf8092a8b8e61fb,
         type: 3}
       propertyPath: m_Name
@@ -4106,11 +4172,63 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 428115383772760277, guid: cefea141f65e7416daf8092a8b8e61fb, type: 3}
+    - {fileID: 7905262736535890296, guid: cefea141f65e7416daf8092a8b8e61fb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4162015549753064909, guid: cefea141f65e7416daf8092a8b8e61fb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5731720782142622212}
+    - targetCorrespondingSourceObject: {fileID: 4162015549753064909, guid: cefea141f65e7416daf8092a8b8e61fb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5731720782142622211}
   m_SourcePrefab: {fileID: 100100000, guid: cefea141f65e7416daf8092a8b8e61fb, type: 3}
+--- !u!1 &5731720782142622210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4162015549753064909, guid: cefea141f65e7416daf8092a8b8e61fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5731720782142622209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5731720782142622211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5731720782142622210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: Lvl 1 Nicks Beach
+--- !u!114 &5731720782142622212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5731720782142622210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 5731720782142622211}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Player
+  frequency: 1
+  eventType: 0
 --- !u!1001 &7430496782654106495
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -745,6 +745,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1320275187}
     m_Modifications:
+    - target: {fileID: -8987861200682234350, guid: 9d40452beb8024b02ab65e6221807db3,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 779649357966613766, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       propertyPath: filterByTag
@@ -813,12 +818,12 @@ PrefabInstance:
     - target: {fileID: 8951247066722105716, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.13
+      value: -40.94
       objectReference: {fileID: 0}
     - target: {fileID: 8951247066722105716, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.37
+      value: -12.32
       objectReference: {fileID: 0}
     - target: {fileID: 8951247066722105716, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
@@ -901,7 +906,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 444448321}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ddb73e2f0dc401ebfb23c7b6e72fa5, type: 3}
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
@@ -911,11 +916,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   happenOnlyOnce: 0
-  filterByTag: 0
+  filterByTag: 1
   filterTag: Player
-  keyToPress: 13
+  frequency: 1
   eventType: 0
-  frequency: 0.5
 --- !u!1001 &617321704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1360,7 +1364,7 @@ PrefabInstance:
     - target: {fileID: 5748659467163455943, guid: a27ff7a4cfb0442e49e7ffdf1fbe85d7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.15
+      value: -46.05
       objectReference: {fileID: 0}
     - target: {fileID: 5748659467163455943, guid: a27ff7a4cfb0442e49e7ffdf1fbe85d7,
         type: 3}
@@ -3313,6 +3317,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1320275187}
     m_Modifications:
+    - target: {fileID: -8987861200682234350, guid: 9d40452beb8024b02ab65e6221807db3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1786825339469112659, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       propertyPath: m_Name
@@ -3321,12 +3330,12 @@ PrefabInstance:
     - target: {fileID: 8951247066722105716, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.24142
+      value: -40.99
       objectReference: {fileID: 0}
     - target: {fileID: 8951247066722105716, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.004147
+      value: -11.07
       objectReference: {fileID: 0}
     - target: {fileID: 8951247066722105716, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}

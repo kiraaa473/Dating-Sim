@@ -1495,6 +1495,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1378891591}
     m_Modifications:
+    - target: {fileID: -8987861200682234350, guid: 9d40452beb8024b02ab65e6221807db3,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 779649357966613766, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       propertyPath: happenOnlyOnce
@@ -1573,11 +1578,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1786825339469112659, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1660704126}
+      addedObject: {fileID: 1660704123}
     - targetCorrespondingSourceObject: {fileID: 1786825339469112659, guid: 9d40452beb8024b02ab65e6221807db3,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1660704125}
+      addedObject: {fileID: 1660704122}
   m_SourcePrefab: {fileID: 100100000, guid: 9d40452beb8024b02ab65e6221807db3, type: 3}
 --- !u!4 &1660704121 stripped
 Transform:
@@ -1585,7 +1590,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1660704120}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1660704125
+--- !u!114 &1660704122
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1598,7 +1603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelName: Record Store
---- !u!114 &1660704126
+--- !u!114 &1660704123
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1607,21 +1612,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1340865767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ddb73e2f0dc401ebfb23c7b6e72fa5, type: 3}
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 1660704125}
+  - {fileID: 1660704122}
   useCustomActions: 0
   customActions:
     m_PersistentCalls:
       m_Calls: []
-  happenOnlyOnce: 1
-  filterByTag: 0
+  happenOnlyOnce: 0
+  filterByTag: 1
   filterTag: Player
-  keyToPress: 13
+  frequency: 1
   eventType: 0
-  frequency: 0.5
 --- !u!1001 &1765476656
 PrefabInstance:
   m_ObjectHideFlags: 0
