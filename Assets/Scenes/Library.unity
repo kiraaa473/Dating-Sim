@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: 0
+  levelName: Hunter End Game
 --- !u!114 &274855233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3534,7 +3534,7 @@ MonoBehaviour:
     type: 3}
   speechBalloonCanvas: {fileID: 667777940}
   speechAnchor: {fileID: 2085898867}
-  keyToAdvance: 97
+  keyToAdvance: 101
 --- !u!4 &1513420349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2396995264888682258, guid: 16c0e1e87c5204baaacef19cdabbcd88,

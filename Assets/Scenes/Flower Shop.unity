@@ -3001,6 +3001,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2382898076183112706, guid: dcf0d402b973d434580a68984e6fecba,
         type: 3}
+      propertyPath: keyToAdvance
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382898076183112706, guid: dcf0d402b973d434580a68984e6fecba,
+        type: 3}
       propertyPath: speechBalloonCanvas
       value: 
       objectReference: {fileID: 884010051}
@@ -3062,7 +3067,7 @@ PrefabInstance:
     - target: {fileID: 7550443484475475762, guid: dcf0d402b973d434580a68984e6fecba,
         type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: Margret
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

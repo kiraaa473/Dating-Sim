@@ -47,4 +47,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Margret End Game.unity
     guid: 7bda958b4dd2b4669ae3057123dd708f
+  - enabled: 1
+    path: Assets/Scenes/Hunter End Game.unity
+    guid: bdc86a78c46db42068ad5d31f90600e1
+  - enabled: 1
+    path: Assets/Scenes/Nick End Game.unity
+    guid: 401d88fc6ea044dc382a9f6c473d67cd
+  - enabled: 1
+    path: Assets/Scenes/Jayden End Game.unity
+    guid: 993542bc0387445d0ae677fbb652619e
+  - enabled: 1
+    path: Assets/Scenes/Amanda End Game.unity
+    guid: f2cb71cd4b7654b05bd9d0a6af845eed
   m_configObjects: {}
