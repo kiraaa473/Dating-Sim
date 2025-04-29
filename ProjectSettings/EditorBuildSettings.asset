@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/character select/characterSelect.unity
     guid: 1c56e2d4a718c4e1e84114e8e190ec98
+  - enabled: 1
+    path: Assets/Scenes/Margret End Game.unity
+    guid: 7bda958b4dd2b4669ae3057123dd708f
   m_configObjects: {}
