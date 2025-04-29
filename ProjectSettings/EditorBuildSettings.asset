@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Amanda End Game.unity
     guid: f2cb71cd4b7654b05bd9d0a6af845eed
+  - enabled: 1
+    path: Assets/Scenes/Brooke Endgame.unity
+    guid: 240e78004f2f34f93a2de7b82230887f
   m_configObjects: {}
