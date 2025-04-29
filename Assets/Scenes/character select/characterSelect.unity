@@ -439,7 +439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1238064619
 RectTransform:
   m_ObjectHideFlags: 0
@@ -774,7 +774,7 @@ MonoBehaviour:
   selectorHighlightP2: {fileID: 1238064619}
   nextScene: Lvl 1 Nicks Beach
   isTwoPlayer: 0
-  columns: 3
+  columns: 2
   confirmKeyP1: 13
   confirmKeyP2: 32
   audioSource: {fileID: 1834886536}
