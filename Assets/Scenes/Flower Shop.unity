@@ -3421,7 +3421,7 @@ PrefabInstance:
     - target: {fileID: 2382898076183112706, guid: dcf0d402b973d434580a68984e6fecba,
         type: 3}
       propertyPath: requiredItemsList.Array.data[0].quantity
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454768224627300837, guid: dcf0d402b973d434580a68984e6fecba,
         type: 3}

@@ -3076,13 +3076,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1680819180371846710, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.324823
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680819180371846710, guid: e9c1b2525c52e489a924c48a1dfb8005,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.9911
       objectReference: {fileID: 0}
     - target: {fileID: 1680819180371846710, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.172911
+      value: -8.5839
       objectReference: {fileID: 0}
     - target: {fileID: 1680819180371846710, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
@@ -3930,7 +3935,7 @@ MonoBehaviour:
   requiresItems: 1
   requiredItemsList:
   - item: {fileID: 11400000, guid: 9e7d1ba79ee994192b18581ac846efaa, type: 2}
-    quantity: 3
+    quantity: 6
   objectsToActivate:
   - {fileID: 274855231}
   objectsToDeactivate: []

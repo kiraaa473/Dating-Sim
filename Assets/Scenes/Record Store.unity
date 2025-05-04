@@ -6388,7 +6388,7 @@ MonoBehaviour:
   requiresItems: 1
   requiredItemsList:
   - item: {fileID: 11400000, guid: 7aa24c551421e4011accf5c6b3cde88f, type: 2}
-    quantity: 3
+    quantity: 5
   objectsToActivate:
   - {fileID: 1937540908}
   objectsToDeactivate: []
@@ -7817,7 +7817,7 @@ Transform:
   m_GameObject: {fileID: 1937540908}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3, y: 17.8, z: 0}
+  m_LocalPosition: {x: 51.82, y: 1.6, z: 0}
   m_LocalScale: {x: 2.4746273, y: 4.2256813, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
