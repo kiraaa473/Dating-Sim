@@ -41,9 +41,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lvl 6 Jayden.unity
     guid: bf1810af421374f14883d8b4c95d059c
-  - enabled: 0
-    path: Assets/Scenes/character select/characterSelect.unity
-    guid: 1c56e2d4a718c4e1e84114e8e190ec98
   - enabled: 1
     path: Assets/Scenes/Margret End Game.unity
     guid: 7bda958b4dd2b4669ae3057123dd708f
