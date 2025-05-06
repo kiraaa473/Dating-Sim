@@ -2043,6 +2043,8 @@ MonoBehaviour:
   - You seem chill
   - 'Wanna grab a bite and see '
   - where the night takes us
+  - 'Go though the door if '
+  - you would like to be mine
   requiresItems: 1
   requiredItemsList:
   - item: {fileID: 11400000, guid: cb428be44ec334ddc9b680619fd09701, type: 2}

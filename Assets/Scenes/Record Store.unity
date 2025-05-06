@@ -6385,6 +6385,8 @@ MonoBehaviour:
   - 'wonderful person I have '
   - 'ever met! Please go out '
   - with me!
+  - 'Go though the door if '
+  - you want to!!
   requiresItems: 1
   requiredItemsList:
   - item: {fileID: 11400000, guid: 7aa24c551421e4011accf5c6b3cde88f, type: 2}
@@ -7304,17 +7306,17 @@ PrefabInstance:
     - target: {fileID: 1325486076603654400, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.050980393
+      value: 0.11372549
       objectReference: {fileID: 0}
     - target: {fileID: 1325486076603654400, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.10980392
+      value: 0.28235295
       objectReference: {fileID: 0}
     - target: {fileID: 1325486076603654400, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.17254902
+      value: 0.65882355
       objectReference: {fileID: 0}
     - target: {fileID: 1680819180371846710, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
@@ -8655,17 +8657,17 @@ PrefabInstance:
     - target: {fileID: 1325486076603654400, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.11764706
+      value: 0.11372549
       objectReference: {fileID: 0}
     - target: {fileID: 1325486076603654400, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.14509805
+      value: 0.28235295
       objectReference: {fileID: 0}
     - target: {fileID: 1325486076603654400, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.1764706
+      value: 0.65882355
       objectReference: {fileID: 0}
     - target: {fileID: 1680819180371846710, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
@@ -8843,17 +8845,17 @@ PrefabInstance:
     - target: {fileID: 1325486076603654400, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.05882353
+      value: 0.11372549
       objectReference: {fileID: 0}
     - target: {fileID: 1325486076603654400, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.11764706
+      value: 0.28235295
       objectReference: {fileID: 0}
     - target: {fileID: 1325486076603654400, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.18431373
+      value: 0.65882355
       objectReference: {fileID: 0}
     - target: {fileID: 1680819180371846710, guid: e9c1b2525c52e489a924c48a1dfb8005,
         type: 3}

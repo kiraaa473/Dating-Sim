@@ -3931,7 +3931,9 @@ MonoBehaviour:
   - you seem kinda cool
   - Would you want to go out..
   - Nothing fancy
-  - Just simple you and me.
+  - If you would like to go
+  - just go through the door
+  - it'll just be you and me.
   requiresItems: 1
   requiredItemsList:
   - item: {fileID: 11400000, guid: 9e7d1ba79ee994192b18581ac846efaa, type: 2}
